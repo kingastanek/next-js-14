@@ -1,8 +1,13 @@
+import Link from "next/link";
+import Header from "@/components/header";
+
 export default function Home() {
   return (
     <main>
-      <h1>Welcome to this NextJS Course!</h1>
-      <p>🔥 Let&apos;s get started! 🔥</p>
+      <Header />
+      <p>
+        <Link href="/about">About</Link>
+      </p>
     </main>
   );
 }

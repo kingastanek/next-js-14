@@ -1,13 +1,7 @@
-import Link from "next/link";
-import Header from "@/components/header";
-
 export default function Home() {
   return (
     <main>
-      <Header />
-      <p>
-        <Link href="/about">About</Link>
-      </p>
+      <h1>Meal App</h1>
     </main>
   );
 }

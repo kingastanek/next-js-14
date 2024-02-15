@@ -5,13 +5,12 @@ import { getMeals } from "@/lib/meals";
 
 export default async function MealsPage() {
   const meals = await getMeals();
-  console.log("meals", meals);
 
   return (
     <>
       <header className={classes.header}>
         <h1>
-          Delicious meals, cerated{" "}
+          Delicious meals, created{" "}
           <span className={classes.highlight}>by you</span>
         </h1>
         <p>
